@@ -19,5 +19,32 @@ color: #000000; /* Warna teks utama (Hitam) */
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
+
+.daftar-proyek {
+  display: flex; /* Aktifkan mode Flexbox! */
+  justify-content: center; /* Pusatkan semua kratu di tengah */
+  gap: 20px; /* Beri jarak 20px antar kartu */
+}
+
+.kartu-proyek {
+  background-color: #e9e9e9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .daftar-proyek {
+    flex-reflection: column; /* Change yhe flex direction from row to column */
+    align-items: center;     /* Center the stacked cards */
+  }
+  .kartu-profil {
+    width: 90%; /* Make the main card wider on small screens */
+    }
+}
+
+body.dark.mode {
+  
+  
   
   
