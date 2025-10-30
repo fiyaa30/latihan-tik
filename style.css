@@ -11,7 +11,7 @@ color: #000000; /* Warna teks utama (Hitam) */
   background-color: white;
   border-radius: 15px; /* membuat sudut menjadi melengkung */
   box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* efek bayangan */
-  text-align: center; /* menengahkan  semua teks di dalam kartu */
+  text-align: center; /* Menengahkan  semua teks di dalam kartu */
 }
 
 
