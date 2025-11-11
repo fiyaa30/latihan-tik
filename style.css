@@ -19,6 +19,7 @@ color: #000000; /* Warna teks utama (Hitam) */
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
+.kartu-profil
 
 .daftar-proyek {
   display: flex; /* Aktifkan mode Flexbox! */
