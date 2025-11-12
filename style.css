@@ -14,12 +14,13 @@ color: #000000; /* Warna teks utama (Hitam) */
   text-align: center; /* Menengahkan  semua teks di dalam kartu */
 }
 
-
-.kartu-profil img{
+.kartu-profil img {
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
-.kartu-profil
+.kartu-profil {
+  /* ...(kode dari slide sebelumnya) ... */
+  text-align: center; /* Menengahkan semua teks di dalam kartu */
 
 .daftar-proyek {
   display: flex; /* Aktifkan mode Flexbox! */
